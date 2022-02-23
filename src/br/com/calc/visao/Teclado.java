@@ -29,7 +29,7 @@ public class Teclado extends JPanel implements ActionListener {
         constraints.fill = GridBagConstraints.BOTH;
 
         adicionarBotao("AC", COR_CINZA_ESCURO, constraints, 0, 0);
-        adicionarBotao("+/-", COR_CINZA_ESCURO, constraints, 1,0);
+        adicionarBotao("±", COR_CINZA_ESCURO, constraints, 1,0);
         adicionarBotao("%", COR_CINZA_ESCURO, constraints, 2,0);
         //Operações matemática divisão
         adicionarBotao("/", COR_LARANJA, constraints, 3, 0);
